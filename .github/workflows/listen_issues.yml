@@ -1,6 +1,5 @@
 name: Listen to issues
 on: issues
-type: created
 jobs:
   showing-issues-ouptut:
     runs-on: ubuntu-latest
