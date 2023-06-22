@@ -4,7 +4,5 @@ jobs:
   showing-issues-ouptut:
     runs-on: ubuntu-latest
     steps:
-      - name: Checking out repository on the vm
-        uses: actions/checkout@v3
       - name: Showing event detail output
-        run: echo "${{toJson(github.event)}}"
+        run: echo "${{ toJSON(github.event) }}"

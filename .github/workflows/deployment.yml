@@ -15,7 +15,7 @@ jobs:
       - name: Checking lint
         run: npm run lint
       - name: Testing
-        run: npm run testa
+        run: npm run test
       - name: Building
         run: npm run build
       - name: Deploying
